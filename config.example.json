@@ -1,0 +1,11 @@
+{
+    "routersense": {
+        "baseUrl": "https://dashboard.routersense.ai/view_device",
+        "deviceId": "YOUR_DEVICE_ID_HERE"
+    },
+    "download": {
+        "outputDir": "dataset_for_analysis/routersense_data",
+        "defaultStartDate": "2025-11-18",
+        "defaultEndDate": "2025-11-18"
+    }
+}

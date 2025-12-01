@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Sensitive configuration
+config.json
+
+# Downloaded data (contains personal information)
+dataset_for_analysis/
+downloads/
+garmin_parsed/
+
+# Playwright browsers
+.playwright/
+
+# Test/debug files
+*.backup
+page_*.html
+debug_*.png
+screenshot_*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
