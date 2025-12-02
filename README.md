@@ -115,28 +115,6 @@ node src/parse_garmin_fit.js
 
 ---
 
-## 🔒 Privacy & Security
-
-**Important:** This project handles personal health and browsing data.
-
-### Protected files (in .gitignore):
-- `config.json` - Your device ID
-- `dataset_for_analysis/` - Downloaded network data
-- `downloads/` - Garmin FIT files
-- `garmin_parsed/` - Parsed health data
-
-### Safe to commit:
-- `config.example.json` - Template configuration
-- All `.js` scripts
-- Documentation files
-
-**Never commit:**
-- Your actual `config.json`
-- Any downloaded data
-- Garmin FIT files or parsed data
-
----
-
 ## 📁 Project Structure
 
 ```
