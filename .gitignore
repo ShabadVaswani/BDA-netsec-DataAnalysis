@@ -5,10 +5,9 @@ package-lock.json
 # Sensitive configuration
 config.json
 
-# Downloaded data (contains personal information)
-dataset_for_analysis/
-downloads/
-garmin_parsed/
+# Data directories (contains personal information)
+data/
+output/
 
 # Playwright browsers
 .playwright/

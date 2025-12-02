@@ -1,19 +1,21 @@
 {
-    "name": "routersense-data-downloader",
+    "name": "bda-netsec-dataanalysis",
     "version": "1.0.0",
-    "description": "Playwright script to download RouterSense data",
-    "main": "download_routersense_data.js",
+    "description": "Analysis of network activity and health data correlations",
+    "main": "src/download_routersense_data.js",
     "scripts": {
-        "download": "node download_routersense_data.js",
+        "download": "node src/download_routersense_data.js",
+        "parse": "node src/parse_garmin_fit.js",
         "install-playwright": "npx playwright install chromium"
     },
     "keywords": [
         "playwright",
         "automation",
-        "data-download"
+        "data-analysis",
+        "health-metrics"
     ],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "fit-file-parser": "^1.21.0",
         "playwright": "^1.40.0"

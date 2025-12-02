@@ -4,7 +4,7 @@
         "deviceId": "YOUR_DEVICE_ID_HERE"
     },
     "download": {
-        "outputDir": "dataset_for_analysis/routersense_data",
+        "outputDir": "data/routersense",
         "defaultStartDate": "2025-11-18",
         "defaultEndDate": "2025-11-18"
     }

@@ -58,17 +58,22 @@ Edit `config.json` and add your RouterSense device ID:
 
 ## 📥 Download RouterSense Data
 
-### Download single date
+### Using npm scripts (recommended)
 ```bash
-node download_routersense_data.js 2025-11-18
+npm run download 2025-11-18
+```
+
+### Or run directly
+```bash
+node src/download_routersense_data.js 2025-11-18
 ```
 
 ### Download date range
 ```bash
-node download_routersense_data.js 2025-11-18 2025-11-20
+node src/download_routersense_data.js 2025-11-18 2025-11-20
 ```
 
-**Output:** CSV files in `dataset_for_analysis/routersense_data/YYYY-MM-DD/`
+**Output:** CSV files in `data/routersense/YYYY-MM-DD/`
 
 Each hour gets its own file (`hour_00.csv` through `hour_23.csv`) with:
 - Time (ISO timestamp)
@@ -81,13 +86,18 @@ Each hour gets its own file (`hour_00.csv` through `hour_23.csv`) with:
 
 ## 🏃 Parse Garmin Data
 
-Place your Garmin FIT files in the `downloads/` directory, then run:
+Place your Garmin FIT files in the `data/garmin/` directory, then run:
 
 ```bash
-node parse_garmin_fit.js
+npm run parse
 ```
 
-**Output:** JSON files in `garmin_parsed/` directory
+Or run directly:
+```bash
+node src/parse_garmin_fit.js
+```
+
+**Output:** JSON files in `output/garmin_parsed/` directory
 
 ---
 
@@ -131,21 +141,44 @@ node parse_garmin_fit.js
 
 ```
 BDA-netsec-DataAnalysis/
+├── src/                        # Production code
+│   ├── download_routersense_data.js
+│   └── parse_garmin_fit.js
+│
+├── scripts/                    # Utility scripts
+│   └── download_hours_8_23.js
+│
+├── tests/                      # Test files
+│   ├── slider/                 # Slider tests
+│   ├── download/               # Download tests
+│   ├── debug/                  # Debug scripts
+│   └── artifacts/              # Test outputs
+│
+├── docs/                       # Documentation
+│   ├── COMPLETE_DATA_ANALYSIS_REPORT.md
+│   ├── GARMIN_DATA_STRUCTURE.md
+│   ├── README_downloader.md
+│   └── GITHUB_SETUP.md
+│
+├── data/                       # Data (gitignored)
+│   ├── routersense/            # RouterSense downloads
+│   ├── garmin/                 # Garmin FIT files
+│   └── processed/              # Processed data
+│
+├── output/                     # Generated outputs (gitignored)
+│   ├── garmin_parsed/          # Parsed Garmin data
+│   ├── network_analysis/       # Analysis results
+│   └── reports/                # Reports
+│
+├── analysis/                   # Jupyter notebooks
+│   └── analysis.ipynb
+│
 ├── config.json                 # Your settings (gitignored)
 ├── config.example.json         # Template config
-├── download_routersense_data.js # Main download script
-├── parse_garmin_fit.js         # Garmin parser
 ├── package.json                # Dependencies
 ├── .gitignore                  # Protected files
-│
-├── dataset_for_analysis/       # Downloaded data (gitignored)
-│   └── routersense_data/
-│       └── YYYY-MM-DD/
-│           ├── hour_00.csv
-│           └── ...
-│
-├── downloads/                  # Garmin FIT files (gitignored)
-└── garmin_parsed/             # Parsed Garmin data (gitignored)
+├── README.md                   # This file
+└── LICENSE                     # MIT License
 ```
 
 ---
@@ -168,10 +201,12 @@ BDA-netsec-DataAnalysis/
 
 ## 📖 Documentation
 
-- `README_downloader.md` - Detailed downloader usage
-- `GARMIN_DATA_STRUCTURE.md` - Garmin data analysis
-- `COMPLETE_DATA_ANALYSIS_REPORT.md` - Analysis opportunities
-- `walkthrough.md` - Technical implementation details
+All documentation is in the `docs/` directory:
+
+- `docs/README_downloader.md` - Detailed downloader usage
+- `docs/GARMIN_DATA_STRUCTURE.md` - Garmin data analysis
+- `docs/COMPLETE_DATA_ANALYSIS_REPORT.md` - Analysis opportunities
+- `docs/GITHUB_SETUP.md` - GitHub setup guide
 
 ---
 
