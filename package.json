@@ -6,6 +6,7 @@
     "scripts": {
         "download": "node src/download_routersense_data.js",
         "parse": "node src/parse_garmin_fit.js",
+        "analyze": "python src/run_analysis.py",
         "install-playwright": "npx playwright install chromium"
     },
     "keywords": [

@@ -1,0 +1,1226 @@
+[
+  {
+    "filename": "383444011107_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T05:01:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T05:01:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T05:01:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T05:01:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 92
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383491789769_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T05:23:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T05:23:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T05:23:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T05:23:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 93
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383552524803_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T08:13:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T08:13:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T08:13:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T08:13:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 94
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383566786549_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T13:43:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T13:43:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T13:43:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T13:43:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 95
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383594346289_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T15:03:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T15:03:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T15:03:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T15:03:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 96
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383609543835_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T17:37:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T17:37:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T17:37:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T17:37:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 97
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383633110416_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T19:03:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T19:03:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T19:03:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T19:03:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 98
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383633196303_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T21:28:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T21:28:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T21:28:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T21:28:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 99
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383637257974_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T21:29:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T21:29:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T21:29:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T21:29:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 100
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383651190878_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T21:56:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T21:56:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T21:56:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T21:56:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 101
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383651608514_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T23:19:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T23:19:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T23:19:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T23:19:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 102
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383652311325_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T23:21:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T23:21:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T23:21:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T23:21:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 103
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383666283168_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-18T23:23:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-18T23:23:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-18T23:23:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-18T23:23:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 104
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383667278956_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-19T00:25:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-19T00:25:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-19T00:25:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-19T00:25:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 105
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383673041607_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-19T00:30:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-19T00:30:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-19T00:30:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-19T00:30:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 106
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383675406883_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-19T01:00:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-19T01:00:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-19T01:00:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-19T01:00:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 107
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383681606587_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-19T01:13:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-19T01:13:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-19T01:13:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-19T01:13:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 108
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  },
+  {
+    "filename": "383721054081_SLEEP_DATA.fit",
+    "data": {
+      "protocolVersion": 16,
+      "profileVersion": 2049,
+      "activity": {
+        "sessions": [],
+        "events": [],
+        "hrv": [],
+        "device_infos": [
+          {
+            "timestamp": "2025-11-19T01:51:00.000Z",
+            "serial_number": 3517294351,
+            "manufacturer": "garmin",
+            "product": 3869,
+            "software_version": 11.03
+          }
+        ],
+        "developer_data_ids": [],
+        "field_descriptions": [],
+        "sports": []
+      },
+      "sessions": [],
+      "laps": [],
+      "lengths": [],
+      "records": [],
+      "events": [],
+      "device_infos": [
+        {
+          "timestamp": "2025-11-19T01:51:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "developer_data_ids": [],
+      "field_descriptions": [],
+      "hrv": [],
+      "dive_gases": [],
+      "course_points": [],
+      "sports": [],
+      "devices": [
+        {
+          "timestamp": "2025-11-19T01:51:00.000Z",
+          "serial_number": 3517294351,
+          "manufacturer": "garmin",
+          "product": 3869,
+          "software_version": 11.03
+        }
+      ],
+      "monitors": [],
+      "stress": [],
+      "file_ids": [
+        {
+          "serial_number": 3517294351,
+          "time_created": "2025-11-19T01:51:00.000Z",
+          "manufacturer": "garmin",
+          "product": 3869,
+          "number": 109
+        }
+      ],
+      "monitor_info": [],
+      "definitions": [],
+      "tank_updates": [],
+      "tank_summaries": []
+    }
+  }
+]

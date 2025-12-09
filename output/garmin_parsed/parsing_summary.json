@@ -1,0 +1,23 @@
+{
+  "parsing_date": "2025-12-03T20:01:59.609Z",
+  "files_processed": {
+    "wellness": 18,
+    "sleep": 18,
+    "metrics": 2,
+    "total": 38
+  },
+  "records_created": {
+    "minute_health": 3179,
+    "hourly_activity": 25,
+    "sleep_files": 18
+  },
+  "time_range": {
+    "start": "2025-11-18T05:00:00.000Z",
+    "end": "2025-11-19T05:00:00.000Z"
+  },
+  "data_quality": {
+    "heart_rate_coverage": 0.36804026423403585,
+    "stress_coverage": 0.44322113872286883,
+    "body_battery_coverage": 0.45234350424661846
+  }
+}

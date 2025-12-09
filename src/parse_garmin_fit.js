@@ -6,8 +6,8 @@ const path = require('path');
  * Parse Garmin FIT files and display their structure
  */
 
-const garminDir = path.join(__dirname, 'downloads', '2025-11-18 (1)');
-const outputDir = path.join(__dirname, 'garmin_parsed');
+const garminDir = path.join(__dirname, '..', 'data', 'garmin', '2025-11-18 (1)');
+const outputDir = path.join(__dirname, '..', 'output', 'garmin_parsed');
 
 // Create output directory
 if (!fs.existsSync(outputDir)) {

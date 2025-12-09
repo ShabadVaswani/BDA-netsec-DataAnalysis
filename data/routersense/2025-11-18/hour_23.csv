@@ -1,0 +1,13 @@
+Time,Domain,Company,Download (kB),Upload (kB)
+2025-11-18T23:57:00.000Z,google.com,Google,0.584,0.08
+2025-11-18T23:56:00.000Z,,,0,0.069
+2025-11-18T23:56:00.000Z,googleapis.com,Google,8.079,12.197
+2025-11-18T23:55:00.000Z,,,0,0.072
+2025-11-18T23:55:00.000Z,googleapis.com,Google,10.32,12.826
+2025-11-18T23:54:00.000Z,googleapis.com,Google,0.962,0.168
+2025-11-18T23:54:00.000Z,gstatic.com,Google,0.983,0.104
+2025-11-18T23:51:00.000Z,,,0,0.069
+2025-11-18T23:51:00.000Z,googleapis.com,Google,6.159,9.792
+2025-11-18T23:50:00.000Z,,,0,0.21
+2025-11-18T23:50:00.000Z,googleapis.com,Google,110.831,56.421
+2025-11-18T23:50:00.000Z,gstatic.com,Google,263.211,9.241

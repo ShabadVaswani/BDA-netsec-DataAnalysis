@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "total_monitors": 1742,
+    "total_stress": 1438,
+    "fields": [
+      "active_calories",
+      "active_time",
+      "activity_type",
+      "current_activity_type_intensity",
+      "cycles",
+      "distance",
+      "duration_min",
+      "heart_rate",
+      "moderate_activity_minutes",
+      "timestamp",
+      "timestamp16"
+    ],
+    "time_range": {
+      "start": "2025-11-18T05:00:00.000Z",
+      "end": "2025-11-19T05:00:00.000Z"
+    }
+  },
+  "sample_monitors": [
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp": "2025-11-18T05:01:00.000Z",
+      "current_activity_type_intensity": 104
+    },
+    {
+      "timestamp16": 45512,
+      "heart_rate": 89,
+      "timestamp": "2025-11-18T05:02:00.000Z"
+    },
+    {
+      "timestamp16": 45572,
+      "heart_rate": 99,
+      "timestamp": "2025-11-18T05:03:00.000Z"
+    },
+    {
+      "cycles": 6.726232628759122e-44,
+      "active_time": 2.2420775429197073e-41,
+      "active_calories": 0,
+      "timestamp16": 45572,
+      "current_activity_type_intensity": 102,
+      "timestamp": "2025-11-18T05:03:00.000Z"
+    },
+    {
+      "timestamp16": 45632,
+      "heart_rate": 93,
+      "timestamp": "2025-11-18T05:04:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:04:00.000Z",
+      "current_activity_type_intensity": 104
+    },
+    {
+      "timestamp16": 45692,
+      "heart_rate": 78,
+      "timestamp": "2025-11-18T05:05:00.000Z"
+    },
+    {
+      "timestamp16": 45752,
+      "heart_rate": 77,
+      "timestamp": "2025-11-18T05:06:00.000Z"
+    }
+  ],
+  "sample_stress": [
+    {
+      "stress_level_time": "2025-11-18T05:01:00.000Z",
+      "stress_level_value": 34,
+      "field_two": 244,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:02:00.000Z",
+      "stress_level_value": 61,
+      "field_two": 208,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:03:00.000Z",
+      "stress_level_value": 65534,
+      "field_two": 102,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:04:00.000Z",
+      "field_two": 101,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:05:00.000Z",
+      "field_two": 101,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:06:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 10,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:07:00.000Z",
+      "stress_level_value": 23,
+      "field_two": 6,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:08:00.000Z",
+      "stress_level_value": 20,
+      "field_two": 18,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:09:00.000Z",
+      "stress_level_value": 17,
+      "field_two": 32,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:10:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 12,
+      "body_battery": 18,
+      "field_four": 1
+    }
+  ]
+}

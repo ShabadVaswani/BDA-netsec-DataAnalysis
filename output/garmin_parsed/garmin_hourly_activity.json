@@ -1,0 +1,177 @@
+[
+  {
+    "datetime": "2025-11-18T05:00:00.000Z",
+    "steps": 2.0178697886277366e-43,
+    "calories": 0,
+    "active_minutes": 0,
+    "activity_intensity_avg": 58
+  },
+  {
+    "datetime": "2025-11-18T06:00:00.000Z",
+    "steps": 1.601684144723266e-42,
+    "calories": 20,
+    "active_minutes": 0,
+    "activity_intensity_avg": 93
+  },
+  {
+    "datetime": "2025-11-18T07:00:00.000Z",
+    "steps": 3.046422861442152e-42,
+    "calories": 57,
+    "active_minutes": 0,
+    "activity_intensity_avg": 84
+  },
+  {
+    "datetime": "2025-11-18T08:00:00.000Z",
+    "steps": 5.78035616533987e-42,
+    "calories": 121,
+    "active_minutes": 0,
+    "activity_intensity_avg": 83
+  },
+  {
+    "datetime": "2025-11-18T09:00:00.000Z",
+    "steps": 0,
+    "calories": 0,
+    "active_minutes": 0,
+    "activity_intensity_avg": 51
+  },
+  {
+    "datetime": "2025-11-18T10:00:00.000Z",
+    "steps": 0,
+    "calories": 0,
+    "active_minutes": 0,
+    "activity_intensity_avg": 67
+  },
+  {
+    "datetime": "2025-11-18T11:00:00.000Z",
+    "steps": 0,
+    "calories": 0,
+    "active_minutes": 0,
+    "activity_intensity_avg": 66
+  },
+  {
+    "datetime": "2025-11-18T12:00:00.000Z",
+    "steps": 3.839557792249999e-42,
+    "calories": 108,
+    "active_minutes": 0,
+    "activity_intensity_avg": 103
+  },
+  {
+    "datetime": "2025-11-18T13:00:00.000Z",
+    "steps": 1.1847978515866328e-41,
+    "calories": 386,
+    "active_minutes": 0,
+    "activity_intensity_avg": 86
+  },
+  {
+    "datetime": "2025-11-18T14:00:00.000Z",
+    "steps": 1.3696291190310762e-41,
+    "calories": 409,
+    "active_minutes": 0,
+    "activity_intensity_avg": 85
+  },
+  {
+    "datetime": "2025-11-18T15:00:00.000Z",
+    "steps": 2.1927518369754738e-41,
+    "calories": 706,
+    "active_minutes": 0,
+    "activity_intensity_avg": 80
+  },
+  {
+    "datetime": "2025-11-18T16:00:00.000Z",
+    "steps": 1.6166780382915415e-41,
+    "calories": 527,
+    "active_minutes": 0,
+    "activity_intensity_avg": 78
+  },
+  {
+    "datetime": "2025-11-18T17:00:00.000Z",
+    "steps": 2.0216532944814136e-41,
+    "calories": 716,
+    "active_minutes": 0,
+    "activity_intensity_avg": 98
+  },
+  {
+    "datetime": "2025-11-18T18:00:00.000Z",
+    "steps": 1.5823462259155834e-41,
+    "calories": 498,
+    "active_minutes": 0,
+    "activity_intensity_avg": 80
+  },
+  {
+    "datetime": "2025-11-18T19:00:00.000Z",
+    "steps": 4.781650749815573e-41,
+    "calories": 1635,
+    "active_minutes": 0,
+    "activity_intensity_avg": 94
+  },
+  {
+    "datetime": "2025-11-18T20:00:00.000Z",
+    "steps": 3.227891012572216e-41,
+    "calories": 1063,
+    "active_minutes": 0,
+    "activity_intensity_avg": 73
+  },
+  {
+    "datetime": "2025-11-18T21:00:00.000Z",
+    "steps": 6.482967215352334e-41,
+    "calories": 2312,
+    "active_minutes": 0,
+    "activity_intensity_avg": 73
+  },
+  {
+    "datetime": "2025-11-18T22:00:00.000Z",
+    "steps": 3.4889529164759295e-41,
+    "calories": 2097,
+    "active_minutes": 0,
+    "activity_intensity_avg": 85
+  },
+  {
+    "datetime": "2025-11-18T23:00:00.000Z",
+    "steps": 8.925150178977625e-41,
+    "calories": 3837,
+    "active_minutes": 0,
+    "activity_intensity_avg": 67
+  },
+  {
+    "datetime": "2025-11-19T00:00:00.000Z",
+    "steps": 1.0761832076168163e-40,
+    "calories": 4572,
+    "active_minutes": 0,
+    "activity_intensity_avg": 88
+  },
+  {
+    "datetime": "2025-11-19T01:00:00.000Z",
+    "steps": 1.586438017431412e-40,
+    "calories": 6513,
+    "active_minutes": 0,
+    "activity_intensity_avg": 109
+  },
+  {
+    "datetime": "2025-11-19T02:00:00.000Z",
+    "steps": 8.370516246797862e-41,
+    "calories": 2810,
+    "active_minutes": 0,
+    "activity_intensity_avg": 89
+  },
+  {
+    "datetime": "2025-11-19T03:00:00.000Z",
+    "steps": 1.4461400151832112e-41,
+    "calories": 454,
+    "active_minutes": 0,
+    "activity_intensity_avg": 74
+  },
+  {
+    "datetime": "2025-11-19T04:00:00.000Z",
+    "steps": 8.747185274008373e-41,
+    "calories": 2872,
+    "active_minutes": 0,
+    "activity_intensity_avg": 88
+  },
+  {
+    "datetime": "2025-11-19T05:00:00.000Z",
+    "steps": 1.4727646860053827e-41,
+    "calories": 596,
+    "active_minutes": 0,
+    "activity_intensity_avg": 104
+  }
+]

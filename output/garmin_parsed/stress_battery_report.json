@@ -1,0 +1,31 @@
+{
+  "stress": {
+    "found": true,
+    "field_name": "stress_level_time",
+    "section": "stress",
+    "sample_value": "2025-11-18T05:01:00.000Z",
+    "sample_timestamp": "2025-11-18T05:01:00.000Z",
+    "sample_file": "383443983790_WELLNESS.fit",
+    "full_record": {
+      "stress_level_time": "2025-11-18T05:01:00.000Z",
+      "stress_level_value": 34,
+      "field_two": 244,
+      "body_battery": 18,
+      "field_four": 1
+    }
+  },
+  "body_battery": {
+    "found": true,
+    "field_name": "body_battery",
+    "section": "stress",
+    "sample_value": 18,
+    "sample_file": "383443983790_WELLNESS.fit",
+    "full_record": {
+      "stress_level_time": "2025-11-18T05:01:00.000Z",
+      "stress_level_value": 34,
+      "field_two": 244,
+      "body_battery": 18,
+      "field_four": 1
+    }
+  }
+}

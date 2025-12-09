@@ -1,0 +1,455 @@
+{
+  "protocolVersion": 16,
+  "profileVersion": 2049,
+  "software": {
+    "version": "6"
+  },
+  "activity": {
+    "sessions": [],
+    "events": [
+      {
+        "timestamp": "2025-11-18T05:00:03.000Z",
+        "data16": 200,
+        "event_type": "marker"
+      },
+      {
+        "timestamp": "2025-11-18T05:01:00.000Z",
+        "data16": 1,
+        "event_type": "marker"
+      },
+      {
+        "timestamp": "2025-11-18T05:02:00.000Z",
+        "data16": 1,
+        "event_type": "marker"
+      },
+      {
+        "timestamp": "2025-11-18T05:05:00.000Z",
+        "data16": 3,
+        "event_type": "marker"
+      },
+      {
+        "timestamp": "2025-11-18T05:07:00.000Z",
+        "data16": 2,
+        "event_type": "marker"
+      },
+      {
+        "timestamp": "2025-11-18T05:17:00.000Z",
+        "data16": 10,
+        "event_type": "marker"
+      }
+    ],
+    "hrv": [],
+    "device_infos": [
+      {
+        "timestamp": "2025-11-18T05:00:00.000Z",
+        "serial_number": 3517294351,
+        "manufacturer": "garmin",
+        "product": 3869,
+        "software_version": 11.03
+      }
+    ],
+    "developer_data_ids": [],
+    "field_descriptions": [],
+    "sports": []
+  },
+  "sessions": [],
+  "laps": [],
+  "lengths": [],
+  "records": [],
+  "events": [
+    {
+      "timestamp": "2025-11-18T05:00:03.000Z",
+      "data16": 200,
+      "event_type": "marker"
+    },
+    {
+      "timestamp": "2025-11-18T05:01:00.000Z",
+      "data16": 1,
+      "event_type": "marker"
+    },
+    {
+      "timestamp": "2025-11-18T05:02:00.000Z",
+      "data16": 1,
+      "event_type": "marker"
+    },
+    {
+      "timestamp": "2025-11-18T05:05:00.000Z",
+      "data16": 3,
+      "event_type": "marker"
+    },
+    {
+      "timestamp": "2025-11-18T05:07:00.000Z",
+      "data16": 2,
+      "event_type": "marker"
+    },
+    {
+      "timestamp": "2025-11-18T05:17:00.000Z",
+      "data16": 10,
+      "event_type": "marker"
+    }
+  ],
+  "device_infos": [
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z",
+      "serial_number": 3517294351,
+      "manufacturer": "garmin",
+      "product": 3869,
+      "software_version": 11.03
+    }
+  ],
+  "developer_data_ids": [],
+  "field_descriptions": [],
+  "hrv": [],
+  "dive_gases": [],
+  "course_points": [],
+  "sports": [],
+  "devices": [
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z",
+      "serial_number": 3517294351,
+      "manufacturer": "garmin",
+      "product": 3869,
+      "software_version": 11.03
+    }
+  ],
+  "monitors": [
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp": "2025-11-18T05:01:00.000Z",
+      "current_activity_type_intensity": 104
+    },
+    {
+      "timestamp16": 45512,
+      "heart_rate": 89,
+      "timestamp": "2025-11-18T05:02:00.000Z"
+    },
+    {
+      "timestamp16": 45572,
+      "heart_rate": 99,
+      "timestamp": "2025-11-18T05:03:00.000Z"
+    },
+    {
+      "cycles": 6.726232628759122e-44,
+      "active_time": 2.2420775429197073e-41,
+      "active_calories": 0,
+      "timestamp16": 45572,
+      "current_activity_type_intensity": 102,
+      "timestamp": "2025-11-18T05:03:00.000Z"
+    },
+    {
+      "timestamp16": 45632,
+      "heart_rate": 93,
+      "timestamp": "2025-11-18T05:04:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:04:00.000Z",
+      "current_activity_type_intensity": 104
+    },
+    {
+      "timestamp16": 45692,
+      "heart_rate": 78,
+      "timestamp": "2025-11-18T05:05:00.000Z"
+    },
+    {
+      "timestamp16": 45752,
+      "heart_rate": 77,
+      "timestamp": "2025-11-18T05:06:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:06:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp16": 45812,
+      "heart_rate": 73,
+      "timestamp": "2025-11-18T05:07:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:07:00.000Z",
+      "current_activity_type_intensity": 40
+    },
+    {
+      "timestamp16": 45872,
+      "heart_rate": 74,
+      "timestamp": "2025-11-18T05:08:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:09:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp": "2025-11-18T05:10:00.000Z",
+      "current_activity_type_intensity": 40
+    },
+    {
+      "timestamp16": 46052,
+      "heart_rate": 75,
+      "timestamp": "2025-11-18T05:11:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:11:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp16": 46112,
+      "heart_rate": 74,
+      "timestamp": "2025-11-18T05:12:00.000Z"
+    },
+    {
+      "timestamp16": 46172,
+      "heart_rate": 75,
+      "timestamp": "2025-11-18T05:13:00.000Z"
+    },
+    {
+      "timestamp16": 46232,
+      "heart_rate": 79,
+      "timestamp": "2025-11-18T05:14:00.000Z"
+    },
+    {
+      "timestamp16": 46292,
+      "heart_rate": 74,
+      "timestamp": "2025-11-18T05:15:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:15:00.000Z",
+      "current_activity_type_intensity": 104
+    },
+    {
+      "timestamp16": 46352,
+      "heart_rate": 73,
+      "timestamp": "2025-11-18T05:16:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:16:00.000Z",
+      "current_activity_type_intensity": 8
+    },
+    {
+      "timestamp16": 46412,
+      "heart_rate": 74,
+      "timestamp": "2025-11-18T05:17:00.000Z"
+    },
+    {
+      "timestamp16": 46472,
+      "heart_rate": 79,
+      "timestamp": "2025-11-18T05:18:00.000Z"
+    },
+    {
+      "timestamp16": 46532,
+      "heart_rate": 80,
+      "timestamp": "2025-11-18T05:19:00.000Z"
+    },
+    {
+      "timestamp16": 46592,
+      "heart_rate": 79,
+      "timestamp": "2025-11-18T05:20:00.000Z"
+    },
+    {
+      "timestamp16": 46652,
+      "heart_rate": 81,
+      "timestamp": "2025-11-18T05:21:00.000Z"
+    },
+    {
+      "timestamp16": 46712,
+      "heart_rate": 83,
+      "timestamp": "2025-11-18T05:22:00.000Z"
+    },
+    {
+      "timestamp": "2025-11-18T05:22:00.000Z",
+      "current_activity_type_intensity": 136
+    },
+    {
+      "timestamp": "2025-11-18T05:22:00.000Z",
+      "distance": 5.508504263260856e-45,
+      "cycles": 6.726232628759122e-44,
+      "active_time": 2.2420775429197073e-41,
+      "active_calories": 0,
+      "duration_min": 22,
+      "activity_type": "walking"
+    },
+    {
+      "timestamp": "2025-11-18T05:22:00.000Z"
+    }
+  ],
+  "stress": [
+    {
+      "stress_level_time": "2025-11-18T05:01:00.000Z",
+      "stress_level_value": 34,
+      "field_two": 244,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:02:00.000Z",
+      "stress_level_value": 61,
+      "field_two": 208,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:03:00.000Z",
+      "stress_level_value": 65534,
+      "field_two": 102,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:04:00.000Z",
+      "field_two": 101,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:05:00.000Z",
+      "field_two": 101,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:06:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 10,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:07:00.000Z",
+      "stress_level_value": 23,
+      "field_two": 6,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:08:00.000Z",
+      "stress_level_value": 20,
+      "field_two": 18,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:09:00.000Z",
+      "stress_level_value": 17,
+      "field_two": 32,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:10:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 12,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:11:00.000Z",
+      "stress_level_value": 25,
+      "field_two": 0,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:12:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 10,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:13:00.000Z",
+      "field_two": 101,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:14:00.000Z",
+      "stress_level_value": 22,
+      "field_two": 11,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:15:00.000Z",
+      "stress_level_value": 15,
+      "field_two": 39,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:16:00.000Z",
+      "stress_level_value": 21,
+      "field_two": 16,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:17:00.000Z",
+      "stress_level_value": 17,
+      "field_two": 31,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:18:00.000Z",
+      "stress_level_value": 23,
+      "field_two": 6,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:19:00.000Z",
+      "stress_level_value": 31,
+      "field_two": 248,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:20:00.000Z",
+      "stress_level_value": 25,
+      "field_two": 0,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:21:00.000Z",
+      "stress_level_value": 42,
+      "field_two": 233,
+      "body_battery": 18,
+      "field_four": 1
+    },
+    {
+      "stress_level_time": "2025-11-18T05:22:00.000Z",
+      "stress_level_value": 41,
+      "field_two": 235,
+      "body_battery": 18,
+      "field_four": 1
+    }
+  ],
+  "file_ids": [
+    {
+      "serial_number": 3517294351,
+      "time_created": "2025-11-18T05:00:00.000Z",
+      "manufacturer": "garmin",
+      "product": 3869,
+      "number": 91,
+      "type": "monitoring_b"
+    }
+  ],
+  "monitor_info": [
+    {
+      "timestamp": "2025-11-18T05:00:00.000Z",
+      "local_timestamp": 1132358400,
+      "cycles_to_distance": 4.604316372613937e-10,
+      "cycles_to_calories": 5.7600411491389835e-37,
+      "resting_metabolic_rate": 2202,
+      "activity_type": "walking"
+    }
+  ],
+  "definitions": [],
+  "tank_updates": [],
+  "tank_summaries": []
+}

@@ -1,0 +1,11 @@
+{
+    "download":  {
+                     "outputDir":  "data/routersense",
+                     "defaultStartDate":  "2025-11-18",
+                     "defaultEndDate":  "2025-11-18"
+                 },
+    "routersense":  {
+                        "deviceId":  "3fdb2c571ad727deaaa2a97b4fcf6b22",
+                        "baseUrl":  "https://dashboard.routersense.ai/view_device"
+                    }
+}
