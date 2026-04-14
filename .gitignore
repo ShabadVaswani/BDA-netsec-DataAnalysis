@@ -1,4 +1,26 @@
+# Data and output directories
+data/
+output/
+temp_garmin_repo/
+node_modules/
+
+# Sensitive database and data formats
+*.csv
+*.fit
+*.sqlite
+*.db
+*.json
+!config.example.json
+!package.json
+!package-lock.json
+
+# Model files
 *.npy
 *.h5
 *.pkl
+*.keras
+
+# Other
 __pycache__/
+.env
+.DS_Store
