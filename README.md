@@ -7,8 +7,9 @@ Analysis of network activity (RouterSense) and physiological data (Garmin) to un
 This project analyzes the relationship between:
 - **Network Activity** (RouterSense data): Websites visited, bandwidth usage, timing
 - **Physiological Metrics** (Garmin data): Heart rate, stress levels, body battery, activity
+- **Environmental Factors**: Weather patterns providing additional context
 
-**Goal:** Identify how phone/internet usage affects stress, heart rate, and overall wellbeing.
+**Goal:** Identify how phone/internet usage affects stress, heart rate, and overall wellbeing utilizing advanced Statistical Analysis and machine learning models (LSTM, VAE, AEON Wellness Index).
 
 ---
 
@@ -141,12 +142,17 @@ node src/parse_garmin_fit.js
 
 ```
 BDA-netsec-DataAnalysis/
-├── src/                        # Production code
-│   ├── download_routersense_data.js
-│   └── parse_garmin_fit.js
+├── EXO-model/                  # VAE for stability indexing & biometric reconstruction
+├── LSTM model/                 # Advanced Hybrid LSTM model for stress prediction
+├── EXO-Hypermind/              # PSI scores & predictive modeling
+├── AEON wellness index/        # Dashboard & composite wellness scoring
+│
+├── src/                        # Data processing & feature engineering
+│   ├── download_*.js/.py       # Data retrieval for RouterSense and Weather
+│   ├── parse_garmin_*.js/.py   # Garmin FIT parsing and compilation
+│   └── merge_*.py              # Data fusion across time-series sources
 │
 ├── scripts/                    # Utility scripts
-│   └── download_hours_8_23.js
 │
 ├── tests/                      # Test files
 │   ├── slider/                 # Slider tests
@@ -160,22 +166,24 @@ BDA-netsec-DataAnalysis/
 │   ├── README_downloader.md
 │   └── GITHUB_SETUP.md
 │
-├── data/                       # Data (gitignored)
+├── data/                       # Raw and processed datasets (gitignored)
 │   ├── routersense/            # RouterSense downloads
 │   ├── garmin/                 # Garmin FIT files
 │   └── processed/              # Processed data
 │
-├── output/                     # Generated outputs (gitignored)
+├── output/                     # Analysis results & model weights (gitignored)
 │   ├── garmin_parsed/          # Parsed Garmin data
 │   ├── network_analysis/       # Analysis results
 │   └── reports/                # Reports
 │
-├── analysis/                   # Jupyter notebooks
-│   └── analysis.ipynb
+├── analysis/                   # EDA & statistical inference notebooks
+│   ├── analysis.ipynb
+│   └── *_analysis.ipynb        # Focused notebooks on Garmin & RouterSense
 │
-├── config.json                 # Your settings (gitignored)
+├── config.json                 # Settings (gitignored)
 ├── config.example.json         # Template config
-├── package.json                # Dependencies
+├── package.json                # Node dependencies
+├── requirements.txt            # Python dependencies
 ├── .gitignore                  # Protected files
 ├── README.md                   # This file
 └── LICENSE                     # MIT License
