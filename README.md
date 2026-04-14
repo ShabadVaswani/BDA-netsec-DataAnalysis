@@ -1,248 +1,130 @@
-# BDA Network Security Data Analysis
-
-Analysis of network activity (RouterSense) and physiological data (Garmin) to understand correlations between digital behavior and health metrics.
-
-## 🎯 Project Overview
-
-This project analyzes the relationship between:
-- **Network Activity** (RouterSense data): Websites visited, bandwidth usage, timing
-- **Physiological Metrics** (Garmin data): Heart rate, stress levels, body battery, activity
-- **Environmental Factors**: Weather patterns providing additional context
-
-**Goal:** Identify how phone/internet usage affects stress, heart rate, and overall wellbeing utilizing advanced Statistical Analysis and machine learning models (LSTM, VAE, AEON Wellness Index).
+<div align="center">
+  <h1>🧠 BDA Network Security & Bio-Data Analysis</h1>
+  <p><i>Fusing physiological biometrics, network scraping, and environmental data for advanced predictive wellness modeling.</i></p>
+</div>
 
 ---
 
-## 📋 Prerequisites
+## 🎯 The AEON Project Overview
 
-- Node.js (v14 or higher)
-- npm
+In the modern era, our digital footprints and biological rhythms are profoundly interconnected. Are we more stressed because we're online, or are we online because we're stressed? 
+
+This project pioneers a cross-domain data pipeline that ingests, synchronizes, and models three distinct dimensions of daily life on a minute-by-minute timescale:
+
+1. **Digital Activity (RouterSense)**: Network logs detailing bandwidth usage, app requests, screen streaks, and domain hits.
+2. **Physiological Biometrics (Garmin)**: Heart Rate, Stress Levels, Body Battery, Respiration, and Sleep quality metrics extracted from raw FIT files.
+3. **Environmental Context (Weather API)**: Temperature, rain, and wind metrics affecting localized behavior.
 
 ---
 
-## 🚀 Setup
+## 🤖 The ML & Analytics Ecosystem
 
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd BDA-netsec-DataAnalysis
+We have developed a 4-tier analytical and Machine Learning ecosystem to interpret this dense time-series fusion:
+
+### 1. `EXO-Model` (Biometric Autoencoder)
+A specialized Variational Autoencoder (VAE) trained *exclusively* on biological data.
+- **Purpose**: It learns your baseline "normal" physical state. By passing real-time biological data through the network, the resulting **reconstruction error** translates mathematically into a **Bio Stability Score**. High error indicates physical anomaly or immense strain.
+
+### 2. `LSTM Model` (Advanced Subconscious Stress Predictor)
+An Advanced Hybrid Long Short-Term Memory (LSTM) sequence-to-sequence network.
+- **Purpose**: Looks at the rolling historical context (past hour of internet usage + past biometrics) to forecast cardiovascular strain and stress levels in the immediate future.
+
+### 3. `EXO-Hypermind` (Predictive Stability Index)
+A cutting-edge architecture combining **SIREN (Sinusoidal Representation Networks)** for hyperdimensional projection, unified with **Transformer Multi-Head Attention blocks**.
+- **Purpose**: Calculates the overarching **EXO-Psi Stability Index** (0-100 scale), flagging systemic chronological anomalies where your digital consumption and physical states clash catastrophically.
+
+### 4. `AEON Wellness Index`
+The ultimate composite dashboard generated in `5_aeon_wellness_dashboard.py`. It combines all models and raw data into 4 weighted pillars for a singular global score (0-100):
+- 🩸 **BIO (40%)**: Inverted Stress, HR, Body Battery, and the underlying Bio Stability model score.
+- 💤 **SLEEP (30%)**: Sleep duration and regenerative depth.
+- 🌦️ **ENV (20%)**: Climatic deviations via Temperature, Wind, and Rain.
+- 📱 **COG (10%)**: Cognitive/Digital load via phone active minutes and unbroken screen-time streaks.
+
+---
+
+## ⚙️ Data Engineering Pipeline (`src/`)
+
+Processing high-frequency biometric and scraped network data requires an exhaustive data engineering pipeline. 
+
+- **Data Downloaders**: `download_routersense_data.js` automates Playwright to iteratively scrape UI tables from RouterSense. `download_weather_data.py` pulls historical climate data.
+- **Garmin Parsing**: scripts like `parse_garmin_comprehensive.js` decode obfuscated, binary `.fit` files.
+- **Feature Engineering**: `add_derived_features.py` constructs rolling thresholds, categorizes domains, and tags "screen streaks".
+- **Temporal Alignment**: `merge_all_data.py` bridges the massive datasets perfectly onto a synchronized minute-to-minute temporal dimension to eliminate misalignment.
+
+---
+
+## 📁 Repository Structure
+
+```text
+BDA-netsec-DataAnalysis/
+├── AI Models/                  # Complex Neural Ensembles
+│   ├── EXO-model/              # VAE for stability indexing & biometric reconstruction
+│   ├── LSTM model/             # Advanced Hybrid LSTM model for stress forecasting
+│   ├── EXO-Hypermind/          # PSI scores & Transformer modeling
+│   └── AEON wellness index/    # Dashboard UI & composite wellness scoring logic
+│
+├── src/                        # Data processing & feature engineering
+│   ├── download_*.js/.py       # Data retrieval for RouterSense and Weather APIs
+│   ├── parse_garmin_*.js/.py   # Binary Garmin FIT parsing
+│   └── merge_*.py              # Merging pipelines across time-series sources
+│
+├── analysis/                   # Exploratory Data notebooks (.ipynb)
+├── tests/                      # UI scraping element tests
+├── docs/                       # Verbose markdown documentation
+├── data/                       # (Gitignored) Raw databases, scraped tables, fit files
+├── output/                     # (Gitignored) Model weights (.keras) and analysis artifacts
+│
+├── config.json                 # (Gitignored) Environment keys
+├── package.json                # Playwright & NodeJS configs
+├── requirements.txt            # Python TensorFlow & ML dependencies
+└── README.md                   
 ```
 
-### 2. Install dependencies
+---
+
+## 🚀 Setup & Execution
+
+### 1. Prerequisites
+- Node.js (v14+)
+- Python 3.9+
+- RouterSense Dashboard Access
+- Garmin Connect Data Export files
+
+### 2. Install Dependencies
 ```bash
+# Node packages (for the RouterSense scraper and FIT parser)
 npm install
+
+# Python packages (for AI models and DataFrame manipulation)
+pip install -r requirements.txt
 ```
 
-### 3. Configure your settings
-
-Copy the example config file:
+### 3. Environment Config
+Copy the example config and add your RouterSense Device PID.
 ```bash
 cp config.example.json config.json
 ```
 
-Edit `config.json` and add your RouterSense device ID:
-```json
-{
-  "routersense": {
-    "baseUrl": "https://dashboard.routersense.ai/view_device",
-    "deviceId": "YOUR_DEVICE_ID_HERE"
-  }
-}
-```
+### 4. Running the Pipeline
+You can trigger the entire data lifecycle in phases:
 
-**How to find your device ID:**
-1. Go to your RouterSense dashboard
-2. Look at the URL: `https://dashboard.routersense.ai/view_device?pid=XXXXX`
-3. Copy the value after `pid=`
-
----
-
-## 📥 Download RouterSense Data
-
-### Using npm scripts (recommended)
-```bash
-npm run download 2025-11-18
-```
-
-### Or run directly
-```bash
-node src/download_routersense_data.js 2025-11-18
-```
-
-### Download date range
-```bash
-node src/download_routersense_data.js 2025-11-18 2025-11-20
-```
-
-**Output:** CSV files in `data/routersense/YYYY-MM-DD/`
-
-Each hour gets its own file (`hour_00.csv` through `hour_23.csv`) with:
-- Time (ISO timestamp)
-- Domain
-- Company
-- Download (kB)
-- Upload (kB)
-
----
-
-## 🏃 Parse Garmin Data
-
-Place your Garmin FIT files in the `data/garmin/` directory, then run:
-
-```bash
-npm run parse
-```
-
-Or run directly:
-```bash
-node src/parse_garmin_fit.js
-```
-
-**Output:** JSON files in `output/garmin_parsed/` directory
-
----
-
-## 📊 Data Structure
-
-### RouterSense Data
-- **Granularity:** Hourly files with minute-level records
-- **Format:** CSV with ISO timestamps
-- **Fields:** Time, Domain, Company, Download, Upload
-
-### Garmin Data
-- **Granularity:** Minute-by-minute
-- **Format:** Binary FIT files → JSON/CSV
-- **Metrics:** Heart rate, stress, body battery, steps, calories
+1. **Fetch RouterSense Data**: `node src/download_routersense_data.js <YYYY-MM-DD>`
+2. **Parse Garmin `.fit` Files**: `node src/parse_garmin_comprehensive.js`
+3. **Merge Datasets**: `python src/merge_all_data.py`
+4. **Feature Engineering**: `python src/add_derived_features.py`
+5. **View Dashboard**: Run the AEON Python scripts inside the `AEON wellness index/` folder.
 
 ---
 
 ## 🔒 Privacy & Security
 
-**Important:** This project handles personal health and browsing data.
+**Important:** This project orchestrates highly sensitive physical health and private browsing metrics. 
+The repository's `.gitignore` guarantees that all `*.csv`, `*.fit`, `*.db`, and massive model `.npy`/`.keras` weights stay localized to your specific machine.
 
-### Protected files (in .gitignore):
-- `config.json` - Your device ID
-- `dataset_for_analysis/` - Downloaded network data
-- `downloads/` - Garmin FIT files
-- `garmin_parsed/` - Parsed health data
-
-### Safe to commit:
-- `config.example.json` - Template configuration
-- All `.js` scripts
-- Documentation files
-
-**Never commit:**
+**Do not publicly commit:**
 - Your actual `config.json`
-- Any downloaded data
-- Garmin FIT files or parsed data
+- Any downloaded scraped `.csv` data
+- The `health_net_features_2_normalize.csv` ultimate fusion database
 
 ---
-
-## 📁 Project Structure
-
-```
-BDA-netsec-DataAnalysis/
-├── EXO-model/                  # VAE for stability indexing & biometric reconstruction
-├── LSTM model/                 # Advanced Hybrid LSTM model for stress prediction
-├── EXO-Hypermind/              # PSI scores & predictive modeling
-├── AEON wellness index/        # Dashboard & composite wellness scoring
-│
-├── src/                        # Data processing & feature engineering
-│   ├── download_*.js/.py       # Data retrieval for RouterSense and Weather
-│   ├── parse_garmin_*.js/.py   # Garmin FIT parsing and compilation
-│   └── merge_*.py              # Data fusion across time-series sources
-│
-├── scripts/                    # Utility scripts
-│
-├── tests/                      # Test files
-│   ├── slider/                 # Slider tests
-│   ├── download/               # Download tests
-│   ├── debug/                  # Debug scripts
-│   └── artifacts/              # Test outputs
-│
-├── docs/                       # Documentation
-│   ├── COMPLETE_DATA_ANALYSIS_REPORT.md
-│   ├── GARMIN_DATA_STRUCTURE.md
-│   ├── README_downloader.md
-│   └── GITHUB_SETUP.md
-│
-├── data/                       # Raw and processed datasets (gitignored)
-│   ├── routersense/            # RouterSense downloads
-│   ├── garmin/                 # Garmin FIT files
-│   └── processed/              # Processed data
-│
-├── output/                     # Analysis results & model weights (gitignored)
-│   ├── garmin_parsed/          # Parsed Garmin data
-│   ├── network_analysis/       # Analysis results
-│   └── reports/                # Reports
-│
-├── analysis/                   # EDA & statistical inference notebooks
-│   ├── analysis.ipynb
-│   └── *_analysis.ipynb        # Focused notebooks on Garmin & RouterSense
-│
-├── config.json                 # Settings (gitignored)
-├── config.example.json         # Template config
-├── package.json                # Node dependencies
-├── requirements.txt            # Python dependencies
-├── .gitignore                  # Protected files
-├── README.md                   # This file
-└── LICENSE                     # MIT License
-```
-
----
-
-## 🛠️ Technical Details
-
-### RouterSense Downloader
-- Uses Playwright for browser automation
-- Binary search algorithm for accurate time navigation
-- Handles Streamlit custom slider component
-- Waits for "RUNNING..." indicator before scraping
-- MD5 hash comparison to avoid duplicate downloads
-
-### Garmin Parser
-- Uses `fit-file-parser` npm package
-- Extracts: heart rate, stress, body battery, activity
-- Outputs to JSON for inspection
-
----
-
-## 📖 Documentation
-
-All documentation is in the `docs/` directory:
-
-- `docs/README_downloader.md` - Detailed downloader usage
-- `docs/GARMIN_DATA_STRUCTURE.md` - Garmin data analysis
-- `docs/COMPLETE_DATA_ANALYSIS_REPORT.md` - Analysis opportunities
-- `docs/GITHUB_SETUP.md` - GitHub setup guide
-
----
-
-## 🤝 Contributing
-
-This is a personal data analysis project. If you want to use it:
-
-1. Fork the repository
-2. Create your own `config.json` with your device ID
-3. Never commit your personal data
-4. Share insights, not raw data!
-
----
-
-## ⚠️ Disclaimer
-
-This project is for personal data analysis and research purposes. Ensure you have permission to access and analyze any data you use. Be mindful of privacy when sharing results.
-
----
-
-## 📝 License
-
-MIT License - See LICENSE file for details
-
----
-
-## 🙏 Acknowledgments
-
-- RouterSense for network monitoring
-- Garmin for health tracking
-- Playwright for browser automation
+*MIT License - Built for Advanced Biological and Network Systems Analytics.*
