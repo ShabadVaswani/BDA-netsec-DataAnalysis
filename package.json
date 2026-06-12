@@ -6,7 +6,13 @@
     "scripts": {
         "download": "node src/download_routersense_data.js",
         "parse": "node src/parse_garmin_fit.js",
-        "install-playwright": "npx playwright install chromium"
+        "analyze": "python src/run_analysis.py",
+        "install-playwright": "npx playwright install chromium",
+        "stream:routersense": "node src/download_routersense_data.js",
+        "stream:garmin": "python src/parse_garmin_complete.py",
+        "stream:weather": "python src/download_weather_data.py",
+        "stack:up": "docker compose up -d kafka cassandra spark-master spark-worker",
+        "stack:down": "docker compose down"
     },
     "keywords": [
         "playwright",
@@ -18,6 +24,7 @@
     "license": "MIT",
     "dependencies": {
         "fit-file-parser": "^1.21.0",
+        "kafkajs": "^2.2.4",
         "playwright": "^1.40.0"
     }
 }

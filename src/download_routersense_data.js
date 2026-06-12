@@ -2,6 +2,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const { getKafkaSettings, publishEvent } = require('./streaming/kafkaProducer');
 
 // Load configuration
 let config;
@@ -166,6 +167,8 @@ async function downloadDateRange() {
     let totalDownloaded = 0;
     let totalSkipped = 0;
     let totalUpdated = 0;
+    let totalKafkaPublished = 0;
+    const kafkaConfig = getKafkaSettings(config);
 
     try {
         console.log('Loading...');
@@ -267,6 +270,7 @@ async function downloadDateRange() {
                         const filename = `hour_${hourStr}.csv`;
                         const filepath = path.join(dateDir, filename);
 
+                        let didWrite = false;
                         if (fs.existsSync(filepath)) {
                             const existingCsv = fs.readFileSync(filepath, 'utf8');
                             const existingHash = crypto.createHash('md5').update(existingCsv).digest('hex');
@@ -276,13 +280,39 @@ async function downloadDateRange() {
                                 console.log('    ⏭️  Skipped');
                             } else {
                                 fs.writeFileSync(filepath, newCsv);
+                                didWrite = true;
                                 updated++;
                                 console.log('    🔄 Updated');
                             }
                         } else {
                             fs.writeFileSync(filepath, newCsv);
+                            didWrite = true;
                             downloaded++;
                             console.log('    ✅ Downloaded');
+                        }
+
+                        if (didWrite && kafkaConfig.topics.routersenseRaw) {
+                            try {
+                                await publishEvent(
+                                    config,
+                                    kafkaConfig.topics.routersenseRaw,
+                                    {
+                                        source: 'routersense',
+                                        date: targetDate,
+                                        hour,
+                                        hour_str: hourStr,
+                                        file_path: path.relative(path.join(__dirname, '..'), filepath),
+                                        row_count: tableData.rows.length,
+                                        hash: newHash,
+                                        captured_at: new Date().toISOString(),
+                                    },
+                                    `${targetDate}-${hourStr}`
+                                );
+                                totalKafkaPublished++;
+                                console.log('    📤 Published to Kafka');
+                            } catch (kafkaError) {
+                                console.log(`    ⚠ Kafka publish failed: ${kafkaError.message}`);
+                            }
                         }
                     }
 
@@ -298,7 +328,7 @@ async function downloadDateRange() {
             totalUpdated += updated;
         }
 
-        console.log(`\n=== Final: 📥 ${totalDownloaded} | 🔄 ${totalUpdated} | ⏭️ ${totalSkipped} ===`);
+        console.log(`\n=== Final: 📥 ${totalDownloaded} | 🔄 ${totalUpdated} | ⏭️ ${totalSkipped} | 📤 ${totalKafkaPublished} ===`);
 
     } catch (error) {
         console.error(`\n✗ Fatal: ${error.message}`);

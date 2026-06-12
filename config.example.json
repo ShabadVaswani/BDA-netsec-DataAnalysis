@@ -7,5 +7,41 @@
         "outputDir": "data/routersense",
         "defaultStartDate": "2025-11-18",
         "defaultEndDate": "2025-11-18"
+    },
+    "kafka": {
+        "brokers": [
+            "localhost:9092"
+        ],
+        "clientId": "bda-netsec",
+        "topics": {
+            "routersenseRaw": "routersense.hourly.raw.v1",
+            "garminRaw": "garmin.minute.raw.v1",
+            "weatherRaw": "weather.hourly.raw.v1",
+            "fusedMinute": "wellness.minute.fused.v1"
+        }
+    },
+    "spark": {
+        "master": "spark://localhost:7077",
+        "appName": "BDAStreamingFusion",
+        "checkpointRoot": "output/streaming/checkpoints"
+    },
+    "cassandra": {
+        "contactPoints": [
+            "localhost"
+        ],
+        "port": 9042,
+        "localDatacenter": "dc1",
+        "keyspace": "bda_streaming",
+        "tables": {
+            "minuteFeatures": "minute_features_v1",
+            "weatherHourly": "weather_hourly_v1",
+            "garminMinute": "garmin_minute_v1",
+            "routersenseHourly": "routersense_hourly_v1"
+        }
+    },
+    "paths": {
+        "dataDir": "data",
+        "outputDir": "output",
+        "streamingDir": "output/streaming"
     }
 }
